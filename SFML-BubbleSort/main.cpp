@@ -114,8 +114,8 @@ int main() {
     
     srand(time(NULL));
     
-    int width = 1920;
-    int height = 1080;
+    int width = 1000;
+    int height = 800;
     bool isSpacePressed = false;
 
     RenderWindow window(VideoMode(width, height), "BubbleSort");
